@@ -64,16 +64,10 @@ ul a{
     font-size: 100%;
 }
 
-.loading-index{
-    position: absolute;
-    top: 500px;
-    left: 610px;
-}
 
-
-.vector-foto img{
-    width: 70%; 
-}
+/* .vector-foto img{
+    width: 10%; 
+} */
 
 .imagen-logo{
     display: flex;
@@ -157,13 +151,13 @@ footer p{
 
 .card-item1{
     position: absolute;
-    top: 110px;
+    top: 150px;
     left: 240px;
 }
 
 .card-item2{
     position: absolute;
-    top: 110px;
+    top: 150px;
     left: 740px;
 }
 
