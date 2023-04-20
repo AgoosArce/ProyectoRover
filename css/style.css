@@ -64,11 +64,6 @@ ul a{
     font-size: 100%;
 }
 
-
-/* .vector-foto img{
-    width: 10%; 
-} */
-
 .imagen-logo{
     display: flex;
     margin-left: 50px;
@@ -93,50 +88,22 @@ footer p{
 
 /* ABOUT US */
 
-.container-grid{
-    width: 100%;
-    height: 110vh;
-    background-image: url(../assets/img/kai-beige.png);
-    background-position: center;
-    background-size: cover;
-    background-repeat: no-repeat;
+.texto-about1{
     font-size: 100%;
     text-transform: uppercase;
     text-align: center;
-    color: white;
-    font-family: 'Public Sans', sans-serif;
-    display: grid;
-    grid-template-columns: repeat(12,1fr);
-    grid-template-rows: repeat(8,1fr);
+    position: absolute;
+    bottom: 100px;
+    right: 350px;
 }
-
-.texto-about1{
-    grid-column-start: 5;
-    grid-column-end: 9;
-    grid-row-start: 7;
-    grid-row-end: 8;
-}
-
 
 .texto-about2{
-    grid-column-start: 8;
-    grid-column-end: 12;
-    grid-row-start: 2;
-    grid-row-end: 3;
-}
-
-.flecha-izq{
-    grid-column-start: 1;
-    grid-column-end: 2;
-    grid-row-start: 5;
-    grid-row-end: 6;
-}
-
-.flecha-der{
-    grid-column-start: 12;
-    grid-column-end: 13;
-    grid-row-start: 5;
-    grid-row-end: 6;
+    font-size: 100%;
+    text-transform: uppercase;
+    text-align: center;
+    position: absolute;
+    bottom: 700px;
+    left: 650px;
 }
 
 
@@ -151,13 +118,13 @@ footer p{
 
 .card-item1{
     position: absolute;
-    top: 150px;
+    top: 100px;
     left: 240px;
 }
 
 .card-item2{
     position: absolute;
-    top: 150px;
+    top: 100px;
     left: 740px;
 }
 
@@ -273,9 +240,6 @@ footer p{
         font-size: 90%;
     }
 
-    .vector-foto img{
-        width: 68%; 
-    }
 
     .imagen-logo{
         
@@ -318,12 +282,6 @@ footer p{
     }
     
 
-    .vector-foto img{
-        width: 60%; 
-        position: relative;
-        
-    }
-
     .imagen-logo{  
         width: 80px;
     
@@ -355,13 +313,6 @@ footer p{
 
     ul a{
         font-size: 60%;
-    }
-    .vector-foto{
-        margin-left:20px;
-    }
-
-    .vector-foto img{
-        width: 40%; 
     }
 
     .imagen-logo{  
@@ -395,13 +346,6 @@ footer p{
     ul a{
         font-size: 55%;
     }
-    .vector-foto{
-        margin-left:20px;
-    }
-
-    .vector-foto img{
-        width: 40%; 
-    }
 
     .imagen-logo{  
         width: 40px;
@@ -430,14 +374,6 @@ footer p{
 
     ul a{
         font-size: 47%;
-    }
-    .vector-foto{
-        margin-right: -30px;
-        margin-left:20px;
-    }
-
-    .vector-foto img{
-        width: 35%; 
     }
 
     .imagen-logo{  
