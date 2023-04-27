@@ -4,18 +4,6 @@
 
 @import "./layout/header";
 
-ul li a:hover{
-    color: #282525;
-    text-decoration: underline;
-}
-
-.navBar{
-    display: flex; 
-    gap: 5px;
-    column-gap: 50px;
-    justify-content: center;
-    list-style: none;  
-}
 
 body{
     background-color: black;
@@ -65,11 +53,6 @@ ul a{
 
 @import "./layout/footer";
 
-footer p{
-    position: relative;
-    top: 8px;
-    right: 10px;
-}
 
 /* ABOUT US */
 
