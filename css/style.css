@@ -57,8 +57,7 @@ ul a {
 
 .imagen-logo {
   display: flex;
-  margin-left: 50px;
-  width: 90px;
+  margin-left: 10px;
   align-items: center;
   justify-content: center; }
 
@@ -264,7 +263,7 @@ footer p {
     background-color: #c4351c; }
   .rover {
     font-size: 270%;
-    top: 340px;
+    top: 420px;
     right: 20px; }
   ul a {
     font-size: 80%; }
@@ -272,7 +271,7 @@ footer p {
     width: 50%;
     height: 20px;
     left: 160px;
-    top: 455px; }
+    top: 550px; }
   footer {
     background-color: #c4351c;
     max-height: 42px; }
@@ -317,7 +316,7 @@ footer p {
   .texto-galeria {
     font-size: 90%;
     position: absolute;
-    top: 150px;
+    top: 160px;
     left: 180px; }
   .body-galeria {
     height: 110vh; }
