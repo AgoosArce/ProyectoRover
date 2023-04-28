@@ -9,11 +9,8 @@
   display: flex;
   background-color: #8E4545;
   flex-flow: row wrap;
-  padding-right: 20px;
-  position: relative;
   justify-content: space-between;
-  align-items: center;
-  max-height: 70px; }
+  align-items: center; }
 
 ul li a:hover {
   color: #282525;
@@ -21,7 +18,6 @@ ul li a:hover {
 
 .navBar {
   display: flex;
-  gap: 5px;
   column-gap: 50px;
   justify-content: center;
   list-style: none; }
@@ -265,25 +261,21 @@ footer p {
 
 @media (max-width: 768px) {
   .container-header {
-    background-color: #c4351c;
-    padding-right: 0; }
-  .navBar {
-    column-gap: 50px;
-    margin-top: 10px; }
+    background-color: #c4351c; }
   .rover {
     font-size: 270%;
-    top: 450px;
-    right: 23px; }
+    top: 340px;
+    right: 20px; }
   ul a {
     font-size: 80%; }
   .select {
     width: 50%;
     height: 20px;
     left: 160px;
-    top: 570px; }
+    top: 455px; }
   footer {
     background-color: #c4351c;
-    max-height: 35px; }
+    max-height: 42px; }
   footer p {
     font-size: 80%; }
   .texto-about1 {
@@ -295,7 +287,7 @@ footer p {
     top: 5%;
     left: 470px; }
   .body-shop {
-    height: 134vh; }
+    height: 100vh; }
   .titulo-prendas {
     font-size: 15px; }
   .card-item1 {
@@ -328,7 +320,7 @@ footer p {
     top: 150px;
     left: 180px; }
   .body-galeria {
-    height: 150vh; }
+    height: 110vh; }
   .clase-p {
     position: absolute;
     top: 640px;
