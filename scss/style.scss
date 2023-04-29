@@ -199,9 +199,10 @@ ul a{
 
 
 
-/* media querys */
+/* media queries */
 
 @media(max-width:1024px){
+
     .container-header{
         background-color: #1cc1c4;
         max-height: 60px;
@@ -325,6 +326,7 @@ right: 50px;
     
     ul a{
     font-size: 80%;
+    margin: 0;
     }
     
     .select{
@@ -419,5 +421,150 @@ right: 50px;
         top: 640px;
         left: 150px;
     }
+    }
+
+    @media(max-width: 320px){
+
+        .container-header{
+        background-color: #4df786;
+        max-height: 20px;
+        }
+
+        .imagen-logo img{
+        height: 50%;
+        width: 40%;
+        position: relative;
+        right: 60px;
+        }
+
+        .navBar{
+        font-size: 40%;     
+        position: relative;
+        right: 20px;
+        bottom: 40px;
+        
+        
+        }
+
+.dropdown{
+    left: 85%;
+    bottom: 70px;
+    width: 10%;
+}
+
+        .rover{
+        font-size: 130%;
+        top: 250px;
+        right: 10px;
+        }
+        
+        
+        .select{
+            font-size: 40%;
+            width: 50%;
+            height: 10px;
+            left: 60px;
+            top: 300px;
+        }
+        
+        footer{
+            background-color: #71c765;
+            max-height: 20px;
+        }
+        
+        footer p{
+            font-size: 40%;
+            left: 20px;
+        }
+
+        footer img{
+            width: 40%;
+            position: relative;
+            left: 30px;
+        }
+    
+        .texto-about1{
+            display: none;
+            }
+            
+            .texto-about2{
+            text-align: center;
+            font-size: 30%;
+            top: 5%;
+            left: 200px;
+            }
+        
+            .body-shop{
+                height: 100vh;
+            }
+    
+            .titulo-prendas{
+                font-size: 7px;
+            }
+            
+            .card-item1{
+                position: relative;
+                left: -90px;
+                top: 20px;
+            }
+            
+            .card-item1 img{
+                width: 30%;
+            }
+            
+            .card-item2{
+                position: absolute;
+                top: 40px;
+                left: 160px;
+            }
+            
+            .card-item2 img{
+                width: 60%;
+            }
+            
+            .card-item3{
+                position: absolute;
+                top: 90px;
+                left: 60px;
+            }
+            
+            .card-item3 img{
+                width: 30%;
+            }
+            
+            .card-item4{
+                position: absolute;
+                top: 90px;
+                left: 160px;
+            }
+            
+            .card-item4 img{
+                width: 40%;
+            }
+            
+            button{
+                font-size: 40%;
+                height: 40%;
+                width: 20%;
+                position: relative;
+                bottom: 20px;
+            }
+
+        .texto-galeria{
+        font-size: 90%;
+        position: absolute;
+        top: 160px;
+        left: 180px; 
+        }
+    
+        .body-galeria{
+        height: 110vh;
+        }
+    
+        .clase-p{
+            position: absolute;
+            top: 640px;
+            left: 150px;
+        } 
     }
 
