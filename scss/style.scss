@@ -131,7 +131,7 @@ ul a{
 /* GALERIA */
 
 .body-galeria{
-    width: 100%;
+    width: 90%;
     height: 130vh;
     }
 
@@ -139,6 +139,7 @@ ul a{
     text-align: center;
     font-size: 250%;
     top: 40px;
+    left: 70px;
 }
 
 .texto-galeria{
@@ -149,17 +150,27 @@ ul a{
     left: 320px; 
 }
 
-.imagenes-galeria{
+.body-galeria img{
     display: flex;
-    justify-content: space-evenly;
-    gap: 10px;
     align-items: center;
     margin-top: 200px;
 }
 
+.imagenes-galeria1{
+    position: relative;
+    left: 80px;
+}
+
+.imagenes-galeria2{
+    position: relative;
+    left: 60px;
+}
+
+
 .clase-p{
-    text-align: center;
-    padding: 65px;
+    position: absolute;
+    top: 730px;
+    left: 470px;
 }
 
 .shop-boton{
@@ -171,6 +182,12 @@ ul a{
 
 .iniciar-sesionf{
     background-color: #8E4545;
+}
+
+.inicioSesion{
+    position: relative;
+    left: 20px;
+    bottom:20px;
 }
 
 .formulario{
@@ -224,14 +241,23 @@ margin-bottom: 10px ;
 margin-left: 35px;
 }
 
+.rover{
+    top: 500px;
+}
+
+.select{
+    top: 640px;
+    left: 300px;
+}
+
 footer{
     background-color: #1cc1c4;
     display: flex;
     align-items: center;
 }
 
-.select{
-    left: 305px;
+.tamaño-about{
+    max-height: 50vh;
 }
 
 .texto-about1{
@@ -250,42 +276,42 @@ right: 50px;
 
 .card-item1{
     position: absolute;
-    top: 90px;
-    left: 190px;
+    top: 120px;
+    left: 170px;
 }
 
 .card-item1 img{
-    width: 60%;
+    width: 100%;
 }
 
 .card-item2{
     position: absolute;
-    top: 90px;
-    left: 550px;
+    top: 120px;
+    left: 570px;
 }
 
 .card-item2 img{
-    width: 60%;
+    width: 100%;
 }
 
 .card-item3{
     position: absolute;
-    top: 410px;
-    left: 190px;
+    top: 570px;
+    left: 170px;
 }
 
 .card-item3 img{
-    width: 60%;
+    width: 100%;
 }
 
 .card-item4{
     position: absolute;
-    top: 410px;
-    left: 550px;
+    top: 570px;
+    left: 570px;
 }
 
 .card-item4 img{
-    width: 60%;
+    width: 100%;
 }
 
 .titulo-prendas{
@@ -293,21 +319,31 @@ right: 50px;
     font-size: 20px;
 }
 
+.galeria-title{
+    font-size: 340%;
+}
+
 .texto-galeria{
-    font-size: 110%;
+    font-size: 140%;
     position: absolute;
-    top: 170px;
-    left: 260px; 
+    top: 190px;
+    left: 160px; 
     }
 
-    .body-galeria{
-    height: 110vh;
+    .imagenes-galeria1{
+        left: 270px;
+    }
+
+    .imagenes-galeria2{
+    left: -120px;
+    bottom: 120px;
     }
 
     .clase-p{
+        font-size: 150%;
         position: absolute;
-        top: 640px;
-        left: 265px;
+        top: 1200px;
+        left: 270px;
     }
 
 }
@@ -367,42 +403,42 @@ right: 50px;
         
         .card-item1{
             position: absolute;
-            top: 80px;
+            top: 160px;
             left: 60px;
         }
         
         .card-item1 img{
-            width: 60%;
+            width: 80%;
         }
         
         .card-item2{
             position: absolute;
-            top: 80px;
+            top: 160px;
             left: 410px;
         }
         
         .card-item2 img{
-            width: 60%;
+            width: 80%;
         }
         
         .card-item3{
             position: absolute;
-            top: 400px;
+            top: 600px;
             left: 60px;
         }
         
         .card-item3 img{
-            width: 60%;
+            width: 80%;
         }
         
         .card-item4{
             position: absolute;
-            top: 398px;
+            top: 598px;
             left: 410px;
         }
         
         .card-item4 img{
-            width: 62%;
+            width: 82%;
         }
         
     .texto-galeria{
