@@ -142,11 +142,11 @@ ul a{
 }
 
 .texto-galeria{
-    text-align: center;
     font-size: 110%;
+    text-align: center;
     position: absolute;
     top: 180px;
-    left: 365px; 
+    left: 320px; 
 }
 
 .imagenes-galeria{
@@ -509,7 +509,7 @@ right: 50px;
             }
             
             .card-item1 img{
-                width: 30%;
+                width: 20%;
             }
             
             .card-item2{
@@ -519,13 +519,13 @@ right: 50px;
             }
             
             .card-item2 img{
-                width: 60%;
+                width: 40%;
             }
             
             .card-item3{
-                position: absolute;
-                top: 90px;
-                left: 60px;
+                position: relative;
+                top: 22px;
+                right:  160px;
             }
             
             .card-item3 img{
@@ -533,15 +533,19 @@ right: 50px;
             }
             
             .card-item4{
-                position: absolute;
-                top: 90px;
+                position: relative;
+                top: 10px;
                 left: 160px;
             }
             
             .card-item4 img{
-                width: 40%;
+                width: 30%;
             }
             
+            .main.shop p{
+                font-size: 20px;
+            }
+
             button{
                 font-size: 40%;
                 height: 40%;
